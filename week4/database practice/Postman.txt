@@ -1,0 +1,4 @@
+Using IDs to pull in pokemon - 
+
+https://pokeapi.co/api/v2/pokemon/50
+
