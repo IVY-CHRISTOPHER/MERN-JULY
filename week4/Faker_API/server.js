@@ -19,8 +19,11 @@ app.get('/api/user/company', (req, res) => {
 
 const createUser = () => {
     const newUser = {
+        //First Name
         firstName: faker.person.firstName(),
+        //Last Name
         lastName: faker.person.lastName(),
+        //ID
         id: faker.number.binary(),
         //email
         email: faker.internet.email(),
@@ -34,8 +37,11 @@ const createUser = () => {
 
 const createCompany = () => {
     const newCompany = {
+        //Id
         id: faker.number.binary(),
+        //Name
         name: faker.company.name(),
+        //Address - city,street,state,zip,country
         address: [
             faker.location.city(),
             faker.location.street(),
