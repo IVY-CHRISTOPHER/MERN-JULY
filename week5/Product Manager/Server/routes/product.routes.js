@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 const ProductController = require('../controllers/product.controller');
 
 module.exports = app => {

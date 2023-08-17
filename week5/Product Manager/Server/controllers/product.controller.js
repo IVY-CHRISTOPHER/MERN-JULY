@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 const Product = require('../models/product.model');
 
 module.exports.index = (req,res) => {
